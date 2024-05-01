@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#wordDisplay {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+#translationInput {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#checkButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#checkButton:hover {
+    background-color: #0056b3;
+}
+
+#resultMessage {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#correctTranslation {
+    color: green;
+    font-weight: bold;
+}
+
+/* Estilo para o botão de troca */
+#nextButton {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#nextButton:hover {
+    background-color: #218838;
+}
+
+/* Estilo para o romaji */
+#romajiDisplay {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Estilo para o botão de troca */
+#nextButton {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#nextButton:hover {
+    background-color: #218838;
+}
+
+/* Botão de falar */
+#speakButton {
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Raio da borda */
+    cursor: pointer; /* Cursor do mouse */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-top: 10px; /* Margem superior */
+    transition-duration: 0.4s; /* Duração da transição */
+}
+
+/* Mudança de cor quando hover */
+#speakButton:hover {
+    background-color: #0056b3; /* Cor de fundo alterada quando hover */
+}
+
