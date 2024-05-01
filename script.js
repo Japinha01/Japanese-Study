@@ -19,10 +19,22 @@ const words = [
     { japanese: "美味しい", translation: "Delicioso", romaji: "Oishii" },
     { japanese: "飲み物", translation: "Bebida", romaji: "Nomimono" },
     { japanese: "友達", translation: "Amigo", romaji: "Tomodachi" },
-    // Adicione mais palavras aqui
+    { japanese: "はい", translation: "Sim", romaji: "Hai" },
+    { japanese: "いいえ", translation: "Não", romaji: "Iie" },
+    { japanese: "お願いします", translation: "Por favor", romaji: "Onegaishimasu" },
+    { japanese: "どうもありがとうございます", translation: "Muito obrigado", romaji: "Doumo arigatou gozaimasu" },
+    { japanese: "すみません", translation: "Desculpe", romaji: "Sumimasen" },
+    { japanese: "おはようございます", translation: "Bom dia (formal)", romaji: "Ohayou gozaimasu" },
+    { japanese: "おやすみなさい", translation: "Boa noite (ao ir dormir)", romaji: "Oyasumi nasai" },
+    { japanese: "おめでとうございます", translation: "Parabéns", romaji: "Omedetou gozaimasu" },
+    { japanese: "おはしをお使いください", translation: "Por favor, use hashi (palitinhos)", romaji: "Ohashi o otsukai kudasai" },
+    { japanese: "いってきます", translation: "Estou saindo (vou e volto)", romaji: "Ittekimasu" },
+    { japanese: "ただいま", translation: "Cheguei (de volta)", romaji: "Tadaima" },
+    { japanese: "いただきます", translation: "Vou comer (antes das refeições)", romaji: "Itadakimasu" },
+    { japanese: "ごちそうさまでした", translation: "Obrigado pela refeição", romaji: "Gochisousama deshita" },
+    { japanese: "かんぱい", translation: "Brinde!", romaji: "Kanpai!" },
+    { japanese: "お誕生日おめでとうございます", translation: "Feliz aniversário", romaji: "Otanjoubi omedetou gozaimasu" }
 ];
-
-
 const wordDisplay = document.getElementById('wordDisplay');
 const translationInput = document.getElementById('translationInput');
 const checkButton = document.getElementById('checkButton');
